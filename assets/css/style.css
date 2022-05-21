@@ -9952,3 +9952,12 @@ h6 {
     z-index: 10;
 }
 
+.logo-res {
+    width: 10vw;
+}
+
+@media (max-width: 1200px) {
+    .logo-res {
+        width: 20vw;
+    }
+}
