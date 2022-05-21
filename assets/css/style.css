@@ -719,7 +719,12 @@ h6 {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+    .main-nav__header-one .container {
+        justify-content: center;
+    }
 }
 
 .main-nav__left {
