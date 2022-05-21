@@ -57,6 +57,7 @@ body {
     font-size: 16px;
     line-height: 34px;
     font-weight: 500;
+    text-align: justify !important;
 }
 button:focus {
     outline: none;
@@ -4521,7 +4522,13 @@ h6 {
 .gallery_one .container-fullwidth {
     position: relative;
     display: block;
-    padding: 0 120px;
+    padding: 0 120px 0 180px;
+}
+
+@media (max-width: 600px) {
+    .gallery_one {
+        padding-left: 15vw;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -6852,7 +6859,7 @@ h6 {
 
 .harvest_innovations_detail h2 {
     font-size: 70px;
-    color: var(--thm-black);
+    color: #5b8c51;
     font-weight: 700;
     margin: 0;
     margin-bottom: 33px;
@@ -7080,7 +7087,7 @@ h6 {
 }
 .news_detail_content h2 {
     text-transform: unset;
-    color: var(--thm-black);
+    color: #5b8c51;
     font-size: 34px;
     font-weight: 600;
     margin: 0;

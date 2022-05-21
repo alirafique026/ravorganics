@@ -84,19 +84,19 @@ Brand One Carousel
                     margin: 0,
                 },
                 575: {
-                    items: 2,
+                    items: 1,
                 },
                 600: {
                     items: 2,
                 },
                 800: {
-                    items: 3,
+                    items: 2,
                 },
                 1024: {
-                    items: 4,
+                    items: 3,
                 },
                 1200: {
-                    items: 5,
+                    items: 3,
                 },
             },
         });
