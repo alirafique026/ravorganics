@@ -9967,10 +9967,17 @@ h6 {
     .logo-res {
         width: 20vw;
     }
+    
 }
 
 @media (min-width: 1440px ) {
     .logo-res {
         width: 8vw;
+    }
+}
+
+@media (max-width: 708px) {
+    .topbar-one .container {
+        min-height: 0.1vw;
     }
 }
