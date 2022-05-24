@@ -118,7 +118,7 @@ h6 {
 
 .block-title h3 {
     margin: 0;
-    color: #5b8c51;
+    color: #1b8804;
     font-size: 70px;
     font-weight: 700;
     font-family: var(--heading-font);
@@ -787,7 +787,7 @@ h6 {
     display: inline-block;
     padding: 0px 20px;
     border-radius: 5px;
-    color: #878986;
+    color: #ffffff;
     font-size: 16px;
     line-height: 40px;
     font-weight: 500;
@@ -943,7 +943,7 @@ h6 {
     left: 0;
     width: 100%;
     z-index: 99;
-    background-color: #ffffff;
+    background-color: #298e02de;
     box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.06);
     opacity: 0;
     -webkit-transform: translateY(-110%);
@@ -4986,7 +4986,7 @@ h6 {
     position: relative;
     display: block;
     padding: 105px 0 110px;
-    background: var(--thm-primary);
+    background: #0e3c05;
 }
 .quote_one_bg {
     position: absolute;
