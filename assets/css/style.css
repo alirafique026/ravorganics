@@ -4522,7 +4522,7 @@ h6 {
 .gallery_one .container-fullwidth {
     position: relative;
     display: block;
-    padding: 0 120px 0 180px;
+    padding: 0 120px 0 13vw;
 }
 
 @media (max-width: 600px) {
@@ -9966,5 +9966,18 @@ h6 {
 @media (max-width: 1200px) {
     .logo-res {
         width: 20vw;
+    }
+    
+}
+
+@media (min-width: 1440px ) {
+    .logo-res {
+        width: 8vw;
+    }
+}
+
+@media (max-width: 708px) {
+    .topbar-one .container {
+        min-height: 0.1vw;
     }
 }
