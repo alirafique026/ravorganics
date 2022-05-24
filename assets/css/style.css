@@ -38,10 +38,10 @@
 
 /*font-family: 'Barlow', sans-serif;
 font-family: 'Amatic SC', cursive;*/
-
+@font-face { font-family: Leafy Regular; src: url('../fonts/Leafy-Regular.woff'); } 
 :root {
     --thm-font: "Barlow", sans-serif;
-    --heading-font: "Amatic SC", cursive;
+    --heading-font: "Leafy Regular";
     --thm-base: #eddd5e;
     --thm-base-rgb: 237, 221, 94;
     --thm-primary: #5b8c51;
@@ -69,14 +69,15 @@ a:visited {
     text-decoration: none;
 }
 
-h1,
+h1 {
+    font-family: "Amatic SC";
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: var(--heading-font);
+    font-family: "Amatic SC"
 }
 
 .page-wrapper {
@@ -5007,14 +5008,12 @@ h6 {
     font-weight: 700;
     margin: 0;
     margin-bottom: 33px;
-    text-transform: uppercase;
 }
 .quote_one_content p {
     color: var(--thm-base);
     font-size: 18px;
     margin: 0;
     font-weight: 600;
-    text-transform: uppercase;
 }
 /*--------------------------------------------------------------
 # Why Choose One
