@@ -7550,7 +7550,7 @@ h6 {
     left: -10000px;
     bottom: 0;
     right: 0;
-    background: var(--thm-primary);
+    background: #0e3c05;
     z-index: -1;
 }
 .contact-one__form__wrap .block-title {
