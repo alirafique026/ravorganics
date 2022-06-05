@@ -8286,7 +8286,6 @@ h6 {
 .addto-cart-box {
     position: relative;
     display: block;
-    margin-left: 40px;
     padding-right: 10px;
 }
 .addto-cart-box button.thm-btn {
@@ -9958,19 +9957,19 @@ h6 {
 }
 
 .logo-res {
-    width: 10vw;
+    width: 16vw;
 }
 
 @media (max-width: 1200px) {
     .logo-res {
-        width: 20vw;
+        width: 19vw;
     }
     
 }
 
 @media (min-width: 1440px ) {
     .logo-res {
-        width: 8vw;
+        width: 11vw;
     }
 }
 
