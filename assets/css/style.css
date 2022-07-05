@@ -9973,10 +9973,34 @@ h6 {
     }
 }
 
-@media (max-width: 708px) {
+@media (max-width: 1200px) {
     .topbar-one .container {
-        min-height: 0.1vw;
+        min-height: 0.2vw;
     }
+    .logo-res {
+        display: none;
+    }
+    .logo-res2 {
+        display: block;
+        width: 10vw;
+        margin-top: 13px;
+    }
+}
+
+@media(max-width: 708px)
+{
+    .logo-res2 {
+        display: block;
+        width: 16.5vw;
+        margin-top: 13px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo-res2 {
+        display: none;
+    }
+
 }
 
 
