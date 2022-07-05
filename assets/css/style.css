@@ -9987,6 +9987,16 @@ h6 {
     }
 }
 
+@media(max-width: 768px) {
+    .main-nav__header-one {
+        width: 100vw;
+    }
+    .site-header__header-one-wrap {
+        position: fixed;
+        z-index: 99;
+    }
+}
+
 @media(max-width: 708px)
 {
     .logo-res2 {
@@ -9995,6 +10005,8 @@ h6 {
         margin-top: 13px;
     }
 }
+
+
 
 @media (min-width: 1200px) {
     .logo-res2 {
