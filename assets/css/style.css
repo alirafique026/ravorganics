@@ -9985,9 +9985,13 @@ h6 {
         width: 10vw;
         margin-top: 13px;
     }
+
+    .stricked-menu {
+        display: none;
+    }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1200px) {
     .main-nav__header-one {
         width: 100vw;
     }
@@ -9997,8 +10001,9 @@ h6 {
     }
 
     #myvideo {
-        margin-top: 27vw;
+        margin-top: 9vw;
     }
+
 }
 
 @media(max-width: 708px)
@@ -10007,6 +10012,16 @@ h6 {
         display: block;
         width: 16.5vw;
         margin-top: 13px;
+    }
+    #myvideo {
+        margin-top: 18vw;
+    }
+}
+
+@media(max-width: 425px)
+{
+    #myvideo {
+        margin-top: 66vw;
     }
 }
 
